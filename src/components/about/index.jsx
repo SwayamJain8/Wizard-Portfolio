@@ -49,7 +49,7 @@ const AboutDetails = () => {
         >
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats-swayam-jains-projects.vercel.app/api/top-langs/?username=swayamjain8&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=swayamjain8&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
             alt="SwayamJain8"
             loading="lazy"
           />
@@ -58,7 +58,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats-swayam-jains-projects.vercel.app/api?username=swayamjain8&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+            src="https://github-readme-stats.vercel.app/api?username=swayamjain8&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
             alt="SwayamJain8"
             loading="lazy"
           />
@@ -90,7 +90,7 @@ const AboutDetails = () => {
           >
             <img
               className="w-full h-auto pr-10"
-              src="https://github-readme-stats-swayam-jains-projects.vercel.app/api/pin/?username=swayamjain8&repo=Anonymous-Feedback-Message-Web-App&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
+              src="https://github-readme-stats.vercel.app/api/pin/?username=swayamjain8&repo=Anonymous-Feedback-Message-Web-App&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2"
               alt="Github Repo"
               loading="lazy"
             />
