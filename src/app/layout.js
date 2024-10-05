@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Swayam: The Wizard's Portfolio</title>
+        <title>Swayam: The Wizard&apos;s Portfolio</title>
         <link
           rel="icon"
           href="https://images.vexels.com/media/users/3/137155/isolated/preview/c2f13b694a3c888865f00c2d231b1be6-witch-hat-circle-icon-2.png?w=360"
