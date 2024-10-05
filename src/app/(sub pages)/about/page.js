@@ -14,7 +14,6 @@ export default function Home() {
     <>
       <Image
         priority
-        quality={100}
         sizes="100vw"
         src={bg}
         alt="background-image"

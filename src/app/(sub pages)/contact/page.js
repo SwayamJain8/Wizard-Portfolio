@@ -7,7 +7,6 @@ export default function Contact() {
     <>
       <Image
         priority
-        quality={100}
         sizes="100vw"
         src={bg}
         alt="background-image"
