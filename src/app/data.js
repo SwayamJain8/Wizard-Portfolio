@@ -31,7 +31,7 @@ export const projectsData = [
     name: "Friend's Portfolio Website",
     description: "using vanilla html, css and javascript",
     date: "2024-09-27",
-    demoLink: "https:jaimingondaliya.in",
+    demoLink: "https://jaimingondaliya.in",
     gitRepo: "https://github.com/swayamjain8/Jaimin-Portfolio",
   },
   // {
