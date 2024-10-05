@@ -1,7 +1,10 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import clsx from "clsx";
+import FireFliesBackground from "@/components/FireFliesBackground";
+import Sound from "@/components/Sound";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +14,24 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <title>Swayam: The Wizard's Portfolio</title>
+        <link
+          rel="icon"
+          href="https://images.vexels.com/media/users/3/137155/isolated/preview/c2f13b694a3c888865f00c2d231b1be6-witch-hat-circle-icon-2.png?w=360"
+        />
+      </head>
+      <body
+        className={clsx(
+          inter.variable,
+          "bg-background text-foreground font-inter"
+        )}
+      >
+        {children}
+        <FireFliesBackground />
+        <Sound />
+        <div id="my-modal"></div>
+      </body>
     </html>
   );
 }
